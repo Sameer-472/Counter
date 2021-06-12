@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 100vh;
+    /* line-height: 20px; */
+}
+h1{
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-family:sans-serif;
+}
+
+#number{
+    font-size: 100px;
+    color: green;
+}
+
+
+
+
+
+
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    /* width: 1.5vw; */
+}
+
+.btn:hover{
+    background-color: grey;
+    color: honeydew;
+    transition: all 0.3s;
+    border: 2px solid black;
+}
+
+@media screen and(min-width:500px) {
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        background-color: black;
+    }
+}
